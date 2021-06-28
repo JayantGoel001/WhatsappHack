@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
         }
         correctNumber = correctNumber.substring(correctNumber.length-10,correctNumber.length)
         correctNumber = "91$correctNumber"
-        Log.d("Number", correctNumber)
 
         if (correctNumber.isDigitsOnly()) {
             startWhatsAPP(correctNumber)
